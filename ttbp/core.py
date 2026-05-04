@@ -262,7 +262,7 @@ def write_global_feed(blogList):
 
             <h2><a href="https://github.com/modgethanc/ttbp">github
             repo</a> | <a
-            href="http://envs.net/~endorphant/blog/20160510.html">state
+            href="http://tilde.town/~endorphant/blog/20160510.html">state
             of the ttbp</a></h2>
             <!--<p>curious? run <b>~endorphant/bin/ttbp</b> while logged in to envs.net.</p>
             <p>it's still a little volatile. let me know if anything breaks.</p>---></div>

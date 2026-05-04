@@ -24,7 +24,7 @@ if not os.path.isdir(VAR):
 if not os.path.isdir(VAR_WWW):
     os.mkdir(VAR_WWW)
 
-LIVE = 'https://envs.net/'
+LIVE = 'https://envs.net/~'
 FEEDBOX = "sudoers@envs.net"
 USERFILE = os.path.join(VAR, "users.txt")
 GRAFF_DIR = os.path.join(VAR, "graffiti")
@@ -60,6 +60,8 @@ DEFAULT_FOOTER = '''
   </body>
 </html>
 '''.lstrip()
+
+DEFAULT_DVIHEADER = ""
 
 with open(os.path.join(INSTALL_PATH, 'config', 'defaults', 'style.css')) as f:
     DEFAULT_STYLE = f.read()
