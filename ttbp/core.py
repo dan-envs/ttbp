@@ -229,7 +229,11 @@ def write_entry(filename):
 
     #entry.append("</p>\n")
     permalink = "https://dan.envs.net/feels/" + "".join(date) + ".html"
-    #line.format(permalink=permalink)
+    if DIVFOOTER:
+        entry.append(DIVFOOTER.format(permalink=permalink))
+        if not DIVFOOTER.endswith("\n"):
+            entry.append("\n")
+
     entry.append("<div class='notementions' href='{permalink}'></div>\n".format(permalink = permalink))
 
     entry.append("\t\t\t<p class=\"permalink\"><a href=\""+permalink+"\">permalink</a></p>\n")
