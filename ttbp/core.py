@@ -49,6 +49,7 @@ SETTINGS = {}
 
 HEADER = ""
 FOOTER = ""
+DIVFOOTER = ""
 FILES = []
 NOPUBS = []
 
@@ -228,9 +229,9 @@ def write_entry(filename):
 
     #entry.append("</p>\n")
     permalink = "".join(date)+".html"
-    for line in DIVFOOTER:
-        line.format(permalink)
-        entry.append(line)
+    #line.format(permalink=permalink)
+    entry.append("<div class='notementions' href='{permalink}'></div>\n".format(permalink = permalink))
+
     entry.append("\t\t\t<p class=\"permalink\"><a href=\""+permalink+"\">permalink</a></p>\n")
     entry.append("\n\t\t</div>\n")
 
