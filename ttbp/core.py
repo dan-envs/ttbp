@@ -228,7 +228,7 @@ def write_entry(filename):
         #    entry.append("</p>\n\t\t\t<p>")
 
     #entry.append("</p>\n")
-    permalink = "".join(date)+".html"
+    permalink = "https://dan.envs.net/feels/" + "".join(date) + ".html"
     #line.format(permalink=permalink)
     entry.append("<div class='notementions' href='{permalink}'></div>\n".format(permalink = permalink))
 
