@@ -2,7 +2,7 @@
 
 '''
 util.py: frequently used terminal and text processing utilities
-copyright (c) 2016 ~endorphant (endorphant@tilde.town)
+copyright (c) 2016 ~endorphant (endorphant@envs.net)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

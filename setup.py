@@ -17,9 +17,9 @@ setup(
     keywords='blog',
     packages=['ttbp'],
     install_requires = [
-        'inflect==0.2.5',
-        'mistune==0.8.1',
-        'colorama==0.3.9',
+        'inflect>=0.2.5',
+        'mistune>=0.8.1',
+        'colorama>=0.3.9',
         'six'
     ],
     include_package_data = True,
